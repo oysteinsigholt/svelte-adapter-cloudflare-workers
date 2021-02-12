@@ -1,0 +1,31 @@
+{
+  "name": "svelte-adapter-cloudflare-workers",
+  "version": "0.1.0",
+  "description": "Adapter for Svelte apps that builds a Cloudflare Workers application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oysteinsigholt/svelte-adapter-cloudflare-workers.git"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "author": "Øystein Sigholt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oysteinsigholt/svelte-adapter-cloudflare-workers/issues"
+  },
+  "homepage": "https://github.com/oysteinsigholt/svelte-adapter-cloudflare-workers#readme",
+  "type": "module",
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "fs-extra": "^9.1.0",
+    "tomlify-j0.4": "^3.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  }
+}
