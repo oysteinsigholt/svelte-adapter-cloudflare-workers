@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
-    "@sveltejs/kit": "next",
-    "@cloudflare/kv-asset-handler": "~0.0.11"
+    "@cloudflare/kv-asset-handler": "~0.0.11",
+    "@sveltejs/kit": "next"
+  },
+  "devDependencies": {
+    "string-replace-loader": "^3.0.1"
   }
 }
