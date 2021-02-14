@@ -1,6 +1,6 @@
 {
   "name": "svelte-adapter-cloudflare-workers",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Adapter for Svelte apps that builds a Cloudflare Workers application.",
   "main": "index.js",
   "scripts": {
