@@ -7,6 +7,6 @@
     "@sveltejs/kit": "next"
   },
   "devDependencies": {
-    "string-replace-loader": "^3.0.1"
+    "webpack": "^4.33.0"
   }
 }

@@ -1,4 +1,5 @@
 const path = require('path');
+const webpack = require('webpack');
 const AdapterPlugin = require('./plugin/index.cjs');
 
 module.exports = {
@@ -14,5 +15,10 @@ module.exports = {
       ),
     },
   },
-  plugins: [new AdapterPlugin()],
+  plugins: [
+    new AdapterPlugin(),
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 1,
+    }),
+  ],
 };
