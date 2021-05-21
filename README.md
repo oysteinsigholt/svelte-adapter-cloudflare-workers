@@ -1,3 +1,6 @@
+# ⛔️ DEPRECATED
+See the official package `@sveltejs/adapter-cloudflare-workers`.
+
 # svelte-adapter-cloudflare-workers
 Adapter for Svelte apps that builds a Cloudflare Workers application.
 
